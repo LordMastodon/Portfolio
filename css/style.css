@@ -14,13 +14,26 @@ body {
     margin: 0;
 }
 
-li {
-    list-style: none;
+.fixed-nav-bar {
+  padding: 0;
+}
+
+nav ul li:first-child {
+  float: left;
+}
+
+nav ul li {
+  list-style:none;
+  margin:10px;
+  float: right;
 }
 
 ul {
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0.5%;
+    overflow: hidden;
+    background-color: #e4e4e4;
 }
 
 h3 {
@@ -29,21 +42,18 @@ h3 {
 }
 
 nav {
-  display: flex;
-  font-family: 'Source Sans Pro';
   font-weight: 300;
-  background-color: #e6e6e6;
-  padding: 1%;
+  font-size: 1.1em;
 }
 
-.navbar-left {
-  justify-content: flex-start;
-}
-
-.navbar-right {
-  justify-content: flex-end;
+a,
+a:before,
+a:after {
+  text-decoration: none;
+  color: #000;
 }
 
 html {
   -webkit-font-smoothing: subpixel-antialiasing;
+  font-family: 'Source Sans Pro';
 }
