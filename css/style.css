@@ -1,16 +1,16 @@
 .main-title {
     font-size: 1.25em;
-    font-family: "Ubuntu Condensed";
+    font-family: "Josefin Slab";
     background-color: rgb(212, 212, 212);
     color: #1b1b1b;
 }
 
 h1 {
     margin: 0;
+    padding: 2%;
 }
 
 body {
-    background: rgba(228, 228, 228, 0.52);
     margin: 0;
 }
 
@@ -18,7 +18,32 @@ li {
     list-style: none;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 1%;
+}
+
 nav {
-    font-family: 'Open Sans';
-    font-weight: 300;
+  display: flex;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  background-color: #e6e6e6;
+  padding: 1%;
+}
+
+.navbar-left {
+  justify-content: flex-start;
+}
+
+.navbar-right {
+  justify-content: flex-end;
+}
+
+html {
+  -webkit-font-smoothing: subpixel-antialiasing;
 }
