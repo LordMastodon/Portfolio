@@ -1,0 +1,24 @@
+.main-title {
+    font-size: 1.25em;
+    font-family: "Ubuntu Condensed";
+    background-color: rgb(212, 212, 212);
+    color: #1b1b1b;
+}
+
+h1 {
+    margin: 0;
+}
+
+body {
+    background: rgba(228, 228, 228, 0.52);
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
